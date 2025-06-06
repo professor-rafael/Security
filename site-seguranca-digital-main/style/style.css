@@ -1,0 +1,183 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#nav-target a {
+    color: white;
+}
+
+.container-site {
+    background: linear-gradient(90deg, #000008, #243492);
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+    cursor: none;
+} 
+
+:target {
+    scroll-margin-top: .8em;
+  }
+
+
+/************** HEADER ***************/
+header {
+    margin-bottom: 3rem;
+}
+
+div a {
+    color: white;
+}
+
+header, h1, p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.navbar-nav li:hover {
+    transform: translateY(-.2rem);
+}
+
+
+/************** SECTION 1 ***************/
+.sect-1 {
+    margin-bottom: 4rem;
+}
+
+.img1 {
+    width: 80%;
+    height: 90%;
+}
+
+
+/************** SECTION 2 ***************/
+.sect-2 h2{
+    margin-bottom: 6rem;
+}
+
+.sect-2 img{
+    max-width: 200px;
+    min-width: 50px;
+    margin-bottom: 1rem;
+}
+
+.sect-2-1 {
+    display: grid;
+    grid-gap: 2rem;
+    margin-bottom: 8rem;
+    justify-content: center;
+}
+
+.sect-2-1-1 img:hover {
+    transform: translateY(-.8rem);
+}
+
+.sect-2-1-1 {
+    width: 300px;
+    border-radius: 2rem;
+    padding: 2rem;
+    background: linear-gradient(146deg, hsla(240, 5%, 45%, 0.212) 0%, hsla(257, 19%, 39%, 0.192));
+}
+
+/************** SECTION 3 ***************/
+.sect-3 {
+    margin-bottom: 8rem;
+}
+
+.sect-3-1 {
+    max-width: 900px;
+}
+
+.sect-3-2 img{
+    width: 80%;
+    height: 90%;
+}
+
+.sect-3-2 img:hover {
+    transform: translateY(-.8rem);
+}
+
+/**************  FOOTER  ***************/
+.footer-1 {
+    justify-content: center;
+}
+
+.footer-1 ul {
+    font-size: 2rem;
+}
+
+.footer-1 ul li {
+    margin: 0.5rem;
+}
+
+.footer-name {
+    line-height: 0rem;
+}
+
+.footer-1 li:hover {
+    transform: translateY(-.2rem);
+}
+
+/********************** RESPONSIV **********************/
+@media (max-width: 600px) {
+    .navbar h1{
+        font-size: 1.5rem;
+    }
+    footer {
+        text-align: center;
+    }
+    footer ul {
+        justify-content: center;
+    }
+    .footer-1, .footer-2 {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 995px) {
+    .container-site {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .sect-1 {
+        margin-top: 5rem;
+        margin-bottom: 9rem;
+    }
+    .sect-1 .row{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .img1 {
+        display: none;
+    }
+    .sect-3-1 {
+        text-align: center;
+    }
+    .sect-3 p{
+        text-align: center;
+    }
+    .sect-3 .row{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .sect-3 .img2 {
+        width: 70% !important;
+        height: 90% !important;
+    }
+}
+ 
